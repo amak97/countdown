@@ -2,18 +2,25 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f20a0a;
   color: #111;
+
+  /* stack items vertically */
   display: flex;
+  flex-direction: column;
+
   justify-content: center;
   align-items: center;
+
   height: 100vh;
   margin: 0;
 }
 
 .container {
   text-align: center;
+  margin-bottom: 40px;  /* spacing between countdown blocks */
 }
 
-#countdown {
+#countdown,
+#countdown2 {
   font-size: 2em;
   margin-top: 20px;
 }
